@@ -1,0 +1,47 @@
+---
+layout: landing
+---
+<div class="wrapper">
+  <div class="shadow-wrapper">
+    <section id="profile">
+      <div class="container">
+        <header class="header">
+          <span class="avatar">
+        <img src="/images/avatar.jpg" />
+      </span>
+          <h1 class="title name">Peter-Ren&eacute; Jeschke</h1>
+          <h2 class="title subtitle">Software Engineer - Student</h2>
+        </header>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <header>
+          <h2 class="section-heading">About Me</h2>
+        </header>
+        <p>
+          Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed
+          adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor
+          lorem magna consequat sed etiam adipiscing interdum.
+        </p>
+      </div>
+    </section>
+    <section id="blog">
+      <div class="container">
+        <header>
+          <h2 class="section-heading">Blog Posts</h2>
+        </header>
+        <ul class="post-list">
+          {% for post in site.posts %}
+          <li>
+            <a href="{{ post.url }}">
+          {{ post.title }}
+          <aside class="post-date">{{ post.date | date_to_string }}</aside>
+        </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+  </div>
+</div>
