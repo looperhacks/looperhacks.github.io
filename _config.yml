@@ -10,8 +10,8 @@ title: Peter-René Jeschke
 email: looperhacks@gmail.com
 description: The personal page of Peter-René Jeschke
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://looperhacks.github.io" # the base hostname & protocol for your site
-github_username: looperhacks
+url: "https://jeschke.dev" # the base hostname & protocol for your site
+github_username: peterjeschke
 
 # Build settings
 markdown: kramdown
